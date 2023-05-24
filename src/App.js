@@ -10,7 +10,7 @@ import getFormattedWeatherData from "./services/weatherService";
 import { useState, useEffect } from "react";
 function App() {
   const [query, setquery] = useState({ q: "pokhara" });
-  const [units, setUnits] = useState("imperial");
+  const [units, setUnits] = useState("metric");
   const [Weather, setWeather] = useState("");
 
   useEffect(() => {
